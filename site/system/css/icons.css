@@ -1,0 +1,75 @@
+.icon {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center 5px;
+	cursor: pointer;
+	text-align: center;
+	overflow: visible;
+	word-break: break-word;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 0px 5px 25px 5px;
+	background-size: 50px auto !important;
+	font-family:'Times New Roman', Times, serif;
+	vertical-align: top;
+	width: 80px;
+	height: 80px;
+	transition-duration: 0.5s;
+}
+
+.icon-dragging {
+	position: absolute;
+	transition-duration: 0;
+	background-color: none;
+}
+
+.icon > span {
+	position: relative;
+	top: 57px;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+.icon > span.link {
+	position: relative;
+	top: 42px;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+.icon img {
+	position: relative;
+	top: 40px;
+	left: 50px;
+	display: block;
+}
+
+.icon-cut {
+	border: 1px dashed rgba( 0, 0, 0 );
+	opacity: 0.5;
+}
+
+.icon-copy {
+	border: 1px dashed rgba( 0, 0, 0 );
+	background-color: rgba( 194, 115, 230, 0.27 )
+}
+
+.icon-placeholder {
+	overflow: hidden;
+}
+
+.icon-cancel-position {
+	display:none;
+	width: 0px;
+	height: 0px;
+}
+.icon-selected {
+	background-color: rgba( 194, 230, 115, 0.35 );
+}
+.icon-placeholder {
+	background-color: rgba( 194, 230, 115, 0.35 );
+}

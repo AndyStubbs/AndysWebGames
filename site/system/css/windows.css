@@ -1,0 +1,619 @@
+body {
+	overflow: hidden;
+	background-color: #55A8A9;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+#main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#mainBackground {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#mainOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#dragOverPopup {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(128, 128, 128, 0.25);
+	display: none;
+}
+
+#dragOverPopup div {
+	width: 90%;
+	height: 90%;
+	border: 4px dashed black;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+}
+
+#dragOverPopup h1 {
+	text-align: center;
+	color: #901e02;
+	margin-top: 100px;
+	font-size: xxx-large;
+}
+
+.window {
+	border: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	cursor: sw-resize;
+	/*-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;*/
+	z-index: 1;
+	overflow: hidden;
+	background-color: rgba(172, 172, 172, 0.75);
+	/*opacity: 0.75;*/
+}
+
+.activeWindow {
+	background-color: #777777;
+	/*opacity: 1;*/
+}
+
+.windowContents {
+	position: absolute;
+	background-color: #AAAAAA;
+	cursor: default;
+	overflow: hidden;
+	transform: translateZ( 0 );
+	-webkit-transform: translateZ( 0 );
+}
+
+.windowHeader {
+	cursor: move;
+	background-image: url( ../../data/img/sys/menu_bar3.png );
+	color: white;
+}
+
+.windowHeader .dragItem {
+	display: inline-block;
+	width: calc(100% - 90px);
+	height: 100%;
+}
+
+.windowHeader span {
+	position: relative;
+	top: 8px;
+	left: 3px;
+	overflow: hidden;
+	display: inline-block;
+	height: 20px;
+}
+
+#divResize {
+	display: none;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	border: 5px dashed rgba(55, 89, 200, 0.5);
+	z-index: 3;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.windowButtons {
+	position: absolute;
+	top: 0px;
+	width: 90px;
+	text-align: right;
+}
+
+.windowButtons input[type="button"] {
+	width: 30px;
+	height: 30px;
+	background-color: #888888;
+	border: 2px inset #acacac;
+}
+
+.windowButtonMin {
+	background: url(../../data/img/sys/min_button_unclicked_1.png);
+}
+/*
+.windowButtonMin:active 
+{
+	background: url(../img/min_button_clicked.png);
+}
+*/
+.windowButtonMax 
+{
+	background: url(../../data/img/sys/max_button_unclicked_1.png);
+}
+
+.windowButtonUnMax 
+{
+	background: url(../../data/img/sys/unmax_button_unclicked_1.png);
+}
+
+/*
+.windowButtonDock:active 
+{
+	background: url(../img/anchor_button_clicked.png);
+}
+*/
+.windowButtonClose
+{
+	background: url(../../data/img/sys/close_button_unclicked_1.png);
+}
+/*
+.windowButtonClose:active 
+{
+	background: url(../img/close_button_clicked.png);
+}
+*/
+
+.taskBarDefault {
+	position: absolute; 
+	bottom: 0; 
+	width: 100%; 
+	padding: 2px;
+	margin: 0; 
+	background-color: rgba(255, 255, 255, 0.75);
+	left: 0;
+}
+
+.divTsIcon {
+	width: 140px;
+	height: 20px;
+	display: inline-block;
+	background-size: 38px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	cursor: pointer;
+	overflow: hidden;
+	margin-right: 5px;
+	vertical-align: middle;
+	background-color: rgba( 200, 200, 200, 0.9 );
+	border: 2px rgba( 128, 128, 128, 0.9 ) inset;
+	color:black;
+}
+
+.divTsIcon img {
+	height: 18px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.spanTitle {
+	font-size: 16px;
+	overflow: visible;
+	word-break: break-word;
+	vertical-align: middle;
+}
+
+.windowBody {
+	overflow: auto;
+}
+
+.windowHeader {
+	overflow: hidden;
+}
+
+.windowFooter {
+	background-color: #AAFFFF;
+	overflow: hidden;
+}
+
+.windowBackgroundShadow {
+	background-color: #000000;
+	position: absolute;
+	opacity: 0;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.contextmenu {
+	display: inline-block;
+	border: 2px solid gray;
+	position: absolute;
+	text-align: left;
+	z-index: 99;
+}
+
+.contextmenu div {
+	padding: 5px 15px;
+	cursor: pointer;
+	transition-duration: 0.25s;
+}
+
+.contextmenu div span {
+	float: right;
+	font-weight: bold;
+}
+
+.contextmenu div:hover {
+	background-color: #767676;
+}
+
+.contextmenu .disabled-item {
+	color: #767676;
+}
+
+.contextmenu .disabled-item:hover {
+	background-color: rgba(0,0,0,0);
+}
+
+.file-dialog {
+	width: calc( 100% - 4px );
+	height: calc( 100% - 10px );
+}
+
+.file-dialog div {
+	margin: 5px;
+	margin-bottom: 10px;
+}
+
+.file-dialog label {
+	display: inline-block;
+	width: 100px;
+}
+
+.file-dialog input[type="text"] {
+	width: calc( 100% - 110px );
+}
+
+.file-dialog select {
+	min-width: 150px;
+}
+
+.file-dialog .data {
+	height: calc( 100% - 120px );
+}
+
+.file-dialog textarea {
+	display: block;
+	width: calc( 100% - 10px );
+	height: calc(100% - 25px );
+	resize: none;
+}
+
+.file-dialog textarea:disabled {
+	color:rgba( 48, 48, 48, 0.1 );
+}
+
+.file-dialog .data .data-button {
+	margin: 0;
+}
+
+.file-dialog .data input[type="button"] {
+	width: 150px;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.file-dialog .file-buttons {
+	text-align: right;
+}
+
+.file-dialog input[type="button"] {
+	margin: 5px;
+	width: 75px;
+	height: 30px;
+	vertical-align: top;
+}
+
+.file-dialog .filetype img {
+	display: inline-block;
+	max-width: 35px;
+	max-height: 35px;
+	vertical-align: sub;
+	position: absolute;
+	border: 2px #767676 inset;
+	padding: 2px;
+	cursor: pointer;
+}
+
+.file-dialog .icon-label {
+	margin-left: 5px;
+	width: 45px;
+}
+
+.file-dialog .message {
+	display: inline-block;
+	width: calc( 100% - 180px );
+	text-align: left;
+}
+
+.error-message {
+	color: #c52525;
+	font-weight: bold;
+}
+
+.file-dialog .file-overwrite {
+	width: auto;
+	margin-right: 10px;
+}
+
+.file-dialog .file-images {
+	width: calc( 100% - 8px );
+	height: calc( 100% - 90px );
+	border: 2px inset gray;
+	text-align: left;
+	overflow-y: auto;
+}
+
+.file-dialog .file-images div {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.file-dialog .file-images div.small {
+	width: 55px;
+	height: 55px;
+	line-height: 53px;
+}
+
+.file-dialog .file-images div.large {
+	width: 130px;
+	height: 105px;
+	line-height: 100px;
+}
+
+.file-dialog .file-images img {
+	vertical-align: middle;
+}
+
+.file-dialog .file-images div.small img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.file-dialog .file-images div.large img {
+	max-width: 125px;
+	max-height: 100px;
+}
+
+.file-img-selected {
+	box-shadow: 0 0 10px 5px #000000;
+}
+
+.img-view {
+	width: 100%;
+	text-align: center;
+}
+
+.video-view {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.file-dialog .file-programs {
+	overflow-y: auto;
+	height: calc( 100% - 50px );
+}
+
+.file-dialog .program-item {
+	border: 2px rgba(0, 0, 0, 0.75) inset;
+	cursor: pointer;
+}
+
+.file-dialog .program-item img {
+	max-width: 25px;
+	max-height: 25px;
+}
+
+.file-dialog .program-item span {
+	margin-left: 5px;
+	vertical-align: super;
+	font-weight: bold;
+}
+
+.file-dialog .selected-program {
+	box-shadow: 5px 5px #888888, -2px -2px black;
+}
+
+.file-import {
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	padding: 5px;
+}
+
+.file-import h2 {
+	margin: 5px;
+	text-align: center;
+}
+
+.file-import .file-viewer {
+	margin-top: 10px;
+	width: calc(100% - 10px);
+	height: calc(100% - 200px);
+	overflow: auto;
+	border: 2px inset gray;
+	background-color: #767676;
+	text-align: center;
+	overflow: hidden;
+}
+
+.file-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.file-import .file-buttons {
+	text-align: right;
+}
+
+.file-import .file-buttons input[type='button'] {
+	width: 85px;
+	margin: 5px;
+}
+
+.file-dialog .img-link {
+	margin: 0;
+}
+
+.img-preview {
+	width: calc(100% - 10px);
+	height: calc(100% - 40px);
+	overflow: hidden;
+	text-align: center;
+}
+
+.img-preview img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.background-set {
+	height: calc(100% - 10px);
+}
+
+.background-set .background-image-preview {
+	height: calc(100% - 200px);
+	margin: 5px;
+	overflow: hidden;
+}
+
+.background-set .background-image-preview-background {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.background-set .preview-text, .background-set .preview-text-high {
+	position: absolute;
+	text-align: center;
+	top: 100px;
+	width: calc(100% - 10px);
+}
+
+.background-set .background-buttons {
+	text-align: right;
+}
+
+.background-set input {
+	width: 80px;
+	margin: 5px;
+	vertical-align: top;
+	margin: 0;
+}
+
+.background-set .background-form > div {
+	display: inline-block;
+	margin: 5px 0 0 5px;
+	height: 30px;
+	width: 220px;
+	vertical-align: top;
+}
+
+.background-set label {
+	display: inline-block;
+	width: 80px;
+	vertical-align: top;
+}
+
+.background-set .background-buttons input {
+	margin: 5px;
+}
+
+.settings-page {
+	width: 100%;
+	height: calc(100% - 10px);
+}
+.settings-page .settings-menu {
+	overflow: hidden;
+}
+
+.settings-page .settings-menu div {
+	display: inline-block;
+	cursor: pointer;
+	width: 100px;
+	padding: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+	top: 9px;
+	overflow: hidden;
+}
+
+.settings-page .settings-menu div.selected {
+	background-color: rgba( 165, 200, 239, 0.5 );
+	font-weight: bold;
+}
+
+.settings-page .settings-content {
+	background-color: rgba( 165, 200, 239, 0.5 );
+	height: calc( 100% - 45px );
+	padding-top: 10px;
+	overflow-y: auto;
+}
+
+.settings-page .settings-content .control-set,
+.settings-page .settings-content .uploads-set {
+	margin: 5px;
+}
+
+.settings-page h2 {
+	margin: 5px 0;
+}
+
+.settings-page .uploads-set-content input[type='button'] {
+	vertical-align: top;
+	width: 100px;
+	margin: 5px
+}
+
+.settings-page .upload-img-container {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+.settings-page .uploads-set-content img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.settings-page .upload-container {
+	display: inline-block;
+	width: 120px;
+	height: 125px;
+	text-align: center;
+	background-color: rgba(20, 100, 150, 0.25);
+	vertical-align: top;
+	margin: 5px;
+	padding: 5px;
+	border: 2px rgba(20, 100, 150, 0.5) inset;
+	line-height: 0;
+}

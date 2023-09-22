@@ -1,0 +1,40 @@
+.console {
+	width: calc( 100% - 8px );
+	height: calc( 100% - 8px );
+	font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+	background-color: black;
+	color: #AFAFAF;
+	overflow: auto;
+	padding: 4px;
+	white-space: pre-wrap;
+}
+
+.console .block {
+	position: relative;
+	left: 0px;
+}
+
+.console .blinking {
+	animation: blink 1s infinite;
+}
+
+.console .prompt {
+	display: inline-block;
+}
+
+.console .prompt-dir {
+	color: rgb(200, 200, 100);
+}
+
+.console a {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@keyframes blink {
+	0% { color: #AFAFAF }
+	49% { color: #AFAFAF }
+	50% { color: rgba(0, 0, 0, 0 ) }
+	99% { color: rgba(0, 0, 0, 0 ) }
+	100% { color: #AFAFAF }
+}

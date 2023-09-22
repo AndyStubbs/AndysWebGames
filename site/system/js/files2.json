@@ -1,0 +1,142 @@
+{
+	"/Help": {
+		"type": "script",
+		"data": "start:helpapp",
+		"icon": "url(data/img/icons/help.png)"
+	},
+	"/Apps/Notepad": {
+		"type": "script",
+		"data": "start:notepad",
+		"icon": "url(data/img/icons/notebook.png)"
+	},
+	"/Documents/Photos/Crater Lake": {
+		"type": "picture",
+		"data": "data/img/backgrounds/a001.png",
+		"icon": "url(data/img/icons/photo.png)"
+	},
+	"/Documents/Readme": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme2": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 2.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme3": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme4": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme5": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme6": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme7": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme8": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme9": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme10": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme11": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme12": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme13": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme14": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/Readme15": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games 3.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Graphics Demos/Gravity": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/gravity",
+		"icon": "url(data/img/icons/planets_small.png)"
+	},
+	"/Console": {
+		"type": "script",
+		"data": "start:console",
+		"icon": "url(data/img/icons/console.png)"
+	},
+	"/Button": {
+		"type": "picture",
+		"data": "data/img/sys/add_button.png",
+		"icon": "url(data/img/icons/photo.png)"
+	},
+	"/Thief": {
+		"type": "picture",
+		"data": "data/img/sys/thief-test-2.png",
+		"icon": "url(data/img/icons/photo.png)"
+	},
+	"/Videos/Learn To Code": {
+		"type": "video",
+		"data": "https://www.youtube.com/embed/aNWaBwWwEoo",
+		"icon": "url(data/img/icons/video.png)"
+	},
+	"/Videos/Linus Tech Tips": {
+		"type": "video",
+		"data": "https://www.youtube.com/watch?v=xJ5aqx02QDI",
+		"icon": "url(data/img/icons/video.png)"
+	},
+	"/Videos/Adrian Christmas": {
+		"type": "video",
+		"data": "https://www.youtube.com/watch?v=AEZuHe4DN6w",
+		"icon": "url(data/img/icons/video.png)"
+	},
+	"/Videos/Rocket Launch": {
+		"type": "video",
+		"data": "https://rumble.com/embed/v9e7f7/?pub=a8xdb",
+		"icon": "url(data/img/icons/video.png)"
+	},
+	"/Channel Tracker": {
+		"type": "script",
+		"data": "start:rss-reader \"/Data/Tracker Settings\"",
+		"icon": "url(data/img/icons/videos.png)"
+	},
+	"/Data/Tracker Settings": {
+		"type": "data",
+		"data": "{\"categories\":[\"History\",\"Tech\"],\"channels\":[{\"title\":\"Shadiversity\",\"category\":\"History\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UCkmMACUKpQeIxN9D9ARli1Q\"},{\"title\":\"The 8-Bit Guy\",\"category\":\"Tech\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UC8uT9cgJorJPWu7ITLGo9Ww\"},{\"title\":\"Pixelmusement\",\"category\":\"Tech\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UCUxuCVwzAsu41TI7UjOJYTA\"}],\"activeFilters\":[]}",
+		"icon": "url(data/img/icons/data-file.png)"
+	}
+}

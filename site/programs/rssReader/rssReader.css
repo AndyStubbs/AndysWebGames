@@ -1,0 +1,200 @@
+.rssReader {
+	width: calc( 100% - 10px );
+	height: calc( 100% - 10px );
+	padding: 0 5px;
+}
+
+.rssReader label {
+	font-weight: bold;
+	margin: 5px;
+}
+
+.rssReader .rss-search-results {
+	text-align: center;
+}
+
+.rssReader h2 {
+	font-size: 32px;
+	margin: 5px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.rssReader .rss-channel-title span {
+	font-size: 28px;
+}
+
+.rssReader .rssUrl {
+	width: calc( 100% - 180px );
+	padding: 5px;
+	margin: 5px;
+}
+
+.rssReader .rss-fetch-button {
+	padding: 5px;
+	width: 75px;
+}
+
+.rssReader .rss-menu {
+	overflow: hidden;
+}
+
+.rssReader .rss-menu div {
+	display: inline-block;
+	cursor: pointer;
+	width: 110px;
+	padding: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+	top: 9px;
+	overflow: hidden;
+}
+
+.rssReader .rss-menu div.selected {
+	background-color: rgba( 165, 200, 239, 0.5 );
+	font-weight: bold;
+}
+
+.rssReader .rss-content {
+	background-color: rgba( 165, 200, 239, 0.5 );
+	height: calc( 100% - 45px );
+	padding-top: 10px;
+	overflow-y: auto;
+}
+
+.rssReader .rss-video {
+	display: inline-block;
+	max-width: 504px;
+	text-align: left;
+}
+
+.rssReader .rss-video input[type='button'] {
+	margin-right: 5px;
+}
+
+.rssReader .rss-channel-title {
+	margin: 15px 0;
+}
+
+.rssReader .rss-channel-title input[type='button'] {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.rssReader .rss-videos {
+	margin: 15px 0;
+	text-align: center;
+}
+
+.rssReader .rss-video-date {
+	font-weight: bold;
+	margin-right: 5px;
+	font-size: 18px;
+}
+
+.rssReader .rss-video input[type='button'] {
+	padding: 4px;
+}
+
+.rssReader .rss-error {
+	margin: 5px;
+	color: #880404;
+	font-weight: bold;
+}
+
+.rss-add-channel div {
+	margin: 5px;
+}
+
+.rss-add-channel label {
+	width: 120px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.rss-add-channel .rss-add-buttons {
+	text-align: right;
+	margin-top: 10px
+}
+
+.rss-add-channel .rss-add-buttons input[type='button'] {
+	width: 80px;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+.rss-add-channel .rss-add-msg {
+	color: #880404;
+	font-weight: bold;
+}
+
+.rssReader .rss-category-filter {
+	padding: 10px;
+	border: 1px solid black;
+	width: 120px;
+	display: inline-block;
+	text-align: center;
+	height: 20px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.rss-settings div {
+	margin: 5px;
+}
+
+.rss-settings input {
+	margin-left: 5px;
+}
+
+.rss-show-more {
+	width: 120px;
+	padding: 5px;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.rssReader .rss-channels-view p {
+	margin: 5px;
+}
+
+.rssReader .set-channel div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.rssReader .set-link {
+	width: 313px;
+}
+
+.rssReader .set-channel {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.rssReader .set-channel label {
+	width: 75px;
+	display: inline-block;
+}
+
+.rssReader .set-channel div {
+	margin: 0;
+}
+
+.rssReader .set-channel > div {
+	display: inline-block;
+}
+
+.rssReader .set-channel div div {
+	display: block;
+}
+
+.rssReader .set-channel input {
+	margin-left: 0;
+	width: calc(100% - 100px);
+}
+
+.rssReader .set-channel input[type='button'] {
+	width: 60px;
+	margin-bottom: 2px;
+}

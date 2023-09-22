@@ -1,0 +1,277 @@
+{
+	"/Apps/Readme": {
+		"type": "text",
+		"data": "This folder contains all the apps that run inside the virtual os.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Apps/About": {
+		"type": "script",
+		"data": "start:about",
+		"icon": "url(data/img/icons/about.png)"
+	},
+	"/Apps/Console": {
+		"type": "script",
+		"data": "start:console",
+		"icon": "url(data/img/icons/console.png)"
+	},
+	"/Apps/Channel Tracker": {
+		"type": "script",
+		"data": "start:rss-reader \"/Apps/Data/Tracker Settings\"",
+		"icon": "url(data/img/icons/videos.png)"
+	},
+	"/Apps/Chess": {
+		"type": "script",
+		"data": "start:chess",
+		"icon": "url(data/img/icons/chess.png)"
+	},
+	"/Apps/Notepad": {
+		"type": "script",
+		"data": "start:notepad",
+		"icon": "url(data/img/icons/notebook.png)"
+	},
+	"/Apps/Data/Readme": {
+		"type": "text",
+		"data": "This folder is used to store data used by the apps. Right now it is only used by the Channel Tracker app to store your Video Channels data.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Apps/Data/Tracker Settings": {
+		"type": "data",
+		"data": "{\"categories\":[\"Tech\",\"History\"],\"channels\":[{\"title\":\"SwitchedToLinux\",\"category\":\"Tech\",\"link\":\"https://www.bitchute.com/feeds/rss/channel/SwitchedToLinux\",\"id\":1},{\"title\":\"Linus Tech Tips\",\"category\":\"Tech\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw\",\"id\":2},{\"title\":\"Historia Civilis\",\"category\":\"History\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UCv_vLHiWVBh_FR9vbeuiY-A\"}],\"activeFilters\":[]}",
+		"icon": "url(data/img/icons/data-file.png)"
+	},
+	"/Documents/Readme": {
+		"type": "text",
+		"data": "Welcome to Andy's Web Games. You can create your own notes and save them on your desktop or in folders. You can use folders to organize your notes.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Documents/AWG Logo": {
+		"type": "picture",
+		"data": "data/img/backgrounds/awg.png",
+		"icon": "url(data/img/icons/photo.png)"
+	},
+	"/Documents/Creater Lake": {
+		"type": "picture",
+		"data": "data/img/backgrounds/crater_lake.png",
+		"icon": "url(data/img/icons/photo.png)"
+	},
+	"/Documents/Grand Canyon": {
+		"type": "picture",
+		"data": "data/img/backgrounds/Grand_Canyon.jpg",
+		"icon": "url(data/img/icons/photo.png)"
+	},
+	"/Documents/Himeji Castle": {
+		"type": "picture",
+		"data": "data/img/backgrounds/HimejiCastle.jpg",
+		"icon": "url(data/img/icons/photo.png)"
+	},
+	"/Documents/Leinseter Castle": {
+		"type": "picture",
+		"data": "data/img/backgrounds/Castles_of_Leinster.jpg",
+		"icon": "url(data/img/icons/photo.png)"
+	},
+	"/Documents/Prince Yongrong Landscape": {
+		"type": "picture",
+		"data": "data/img/backgrounds/Prince_Yongrong_Landscape_1779.jpg",
+		"icon": "url(data/img/icons/photo.png)"
+	},
+	"/Games/Readme": {
+		"type": "text",
+		"data": "This folder contains links to games that I have created. Most of these games are created using JavaScript and HTML5. To-Remember was created with the Unity Game Engine.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Games/Battleship": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/battleship/",
+		"icon": "url(data/img/icons/battleship.png)"
+	},
+	"/Games/Chess": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/chess/",
+		"icon": "url(data/img/icons/chess2.png)"
+	},
+	"/Games/Land": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/land/",
+		"icon": "url(data/img/icons/knight.png)"
+	},
+	"/Games/Maze Up": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/maze_up/",
+		"icon": "url(data/img/icons/maze_up.png)"
+	},
+	"/Games/Pacman": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/pacman/",
+		"icon": "url(data/img/icons/pacman.png)"
+	},
+	"/Games/Dr ASCII": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/dr_ascii/",
+		"icon": "url(data/img/icons/dr_ascii.webp)"
+	},
+	"/Games/Tetris": {
+		"type": "link",
+		"data": "https://www.andyswebgames.com/games/tetris/",
+		"icon": "url(data/img/icons/tetris.webp)"
+	},
+	"/Games/Typing": {
+		"type": "link",
+		"data": "https://www.andyswebgames.com/games/typing/",
+		"icon": "url(data/img/icons/typing.webp)"
+	},
+	"/Games/Blastroids": {
+		"type": "link",
+		"data": "https://www.andyswebgames.com/games/blastroids/",
+		"icon": "url(data/img/icons/blastroids.webp)"
+	},
+	"/Games/Gorillas": {
+		"type": "link",
+		"data": "https://pijs.org/demos/gorillas/",
+		"icon": "url(data/img/icons/gorillas.webp)"
+	},
+	"/Games/Solitaire": {
+		"type": "link",
+		"data": "https://www.andyswebgames.com/games/solitaire/",
+		"icon": "url(data/img/icons/solitaire.webp)"
+	},
+	"/Misc/Pixel Editor": {
+		"type": "link",
+		"data": "https://www.visualwebguide.com/pixel/",
+		"icon": "url(data/img/icons/pixel-editor.png)"
+	},
+	"/Games/Scramwords": {
+		"type": "link",
+		"data": "https://www.scramwords.com/",
+		"icon": "url(data/img/icons/scramwords.webp)"
+	},
+	"/Games/Slide Puzzle": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/slide_puzzle/",
+		"icon": "url(data/img/icons/tiger.png)"
+	},
+	"/Games/Sneaky Pirate": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/pirate/",
+		"icon": "url(data/img/icons/pirate.png)"
+	},
+	"/Misc/QBS Library": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/qbs/docs/",
+		"icon": "url(data/img/icons/www-link.png)"
+	},
+	"/Games/To Remember": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/unity/to-remember/",
+		"icon": "url(data/img/icons/to-remember.png)"
+	},
+	"/Game Demos/Readme": {
+		"type": "text",
+		"data": "This folder contains game prototypes and demos. Space and Jetman are my favorites in this folder.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Game Demos/Bites": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/bites/",
+		"icon": "url(data/img/icons/bites.png)"
+	},
+	"/Game Demos/Build Stack": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/unity/build_stack/",
+		"icon": "url(data/img/icons/build-stack.png)"
+	},
+	"/Game Demos/Hexland": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/hexland/",
+		"icon": "url(data/img/icons/hexland.png)"
+	},
+	"/Game Demos/Jetman": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/jetman/",
+		"icon": "url(data/img/icons/jetman.png)"
+	},
+	"/Game Demos/Monster Warrior": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/monster/monster.php",
+		"icon": "url(data/img/icons/warrior.png)"
+	},
+	"/Game Demos/Shooter": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/shooter/",
+		"icon": "url(data/img/icons/space_ship.png)"
+	},
+	"/Game Demos/Snake": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/snake/",
+		"icon": "url(data/img/icons/snake.png)"
+	},
+	"/Game Demos/Space": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/games/space/",
+		"icon": "url(data/img/icons/space_ship2.png)"
+	},
+	"/Graphics Demos/Readme": {
+		"type": "text",
+		"data": "This folder contains various graphical demos including some 3d effects written in WebGL. My favorites from this folder are Mandlebrot and Land. \n\nIf you open the 3D Textures demo refresh the page so you can see the effect applied to different images.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/Graphics Demos/3D Land": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/land/",
+		"icon": "url(data/img/icons/land.png)"
+	},
+	"/Graphics Demos/3D Textures": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/3d_textures/",
+		"icon": "url(data/img/icons/3d_textures.png)"
+	},
+	"/Graphics Demos/Blocks": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/blocks/",
+		"icon": "url(data/img/icons/blocks.png)"
+	},
+	"/Graphics Demos/Flag": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/flag/",
+		"icon": "url(data/img/icons/flag.png)"
+	},
+	"/Graphics Demos/Illusion": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/illusion/",
+		"icon": "url(data/img/icons/illusion.png)"
+	},
+	"/Graphics Demos/Intel Wave": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/intel_wave/",
+		"icon": "url(data/img/icons/intel.png)"
+	},
+	"/Graphics Demos/Island": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/island/",
+		"icon": "url(data/img/icons/island.png)"
+	},
+	"/Graphics Demos/Mandelbrot": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/mandelbrot/",
+		"icon": "url(data/img/icons/mandelbrot.png)"
+	},
+	"/Graphics Demos/Parallax": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/parallax/",
+		"icon": "url(data/img/icons/parallax.png)"
+	},
+	"/Graphics Demos/Plasma Star": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/star/",
+		"icon": "url(data/img/icons/star.png)"
+	},
+	"/Graphics Demos/Wind": {
+		"type": "link",
+		"data": "http://www.andyswebgames.com/apps/wind/",
+		"icon": "url(data/img/icons/wind.png)"
+	},
+	"/Help": {
+		"type": "script",
+		"data": "start:helpapp",
+		"icon": "url(data/img/icons/help.png)"
+	}
+}

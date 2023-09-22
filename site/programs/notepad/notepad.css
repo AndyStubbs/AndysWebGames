@@ -1,0 +1,65 @@
+.npEditor {
+	background-color: white;
+	cursor: text;
+	overflow: auto;
+	min-height: 100%;
+	padding: 4px;
+	-webkit-touch-callout: default;
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+	white-space: pre-wrap;
+	resize: none;
+	width: calc(100% - 8px);
+	outline: none;
+	margin: 0;
+	border: none;
+}
+
+.npEditor p {
+	margin: 0px;
+}
+
+.npToolBar {
+	background-color: #AAAAAA;
+	width: 100%;
+	height: 45px;
+	color: black;
+}
+
+.npToolBar img {
+	margin: 2px;
+	border: 1px solid black;
+}
+
+.npToolBarButton {
+	background-color: #AAAAAA;
+	margin: 2px;
+	width: 40px;
+	height: 40px;
+}
+
+.npToolBar label {
+	vertical-align: top;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	padding: 10px;
+	position: relative;
+	top: 11px;
+	user-select: none;
+}
+
+.npToolBarButtonSave {
+	background: url(../../data/img/sys/save_disk.png);
+}
+
+.npToolBarButtonSaveAs {
+	background: url(../../data/img/sys/save_disk2.png);
+}
+
+.npFooter {
+	width: 100%;
+	height: 18px;
+	background-color: #AAAAAA;
+}

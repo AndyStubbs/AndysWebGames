@@ -1,0 +1,5 @@
+node_modules/
+Thumbs.db
+npm-debug.log
+*.log
+/site/cache/*.xml

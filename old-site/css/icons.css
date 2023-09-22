@@ -1,0 +1,35 @@
+.divIcon
+{
+	display: inline-block;
+	background-image: url(img/icon_default.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	cursor: pointer;
+	text-align: center;
+	overflow: hidden;
+	position: static;
+	left: 5px;
+	top: 30px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 0px 5px 25px 5px;
+}
+
+.divIcon > span
+{
+	position: relative;
+	top: 63px;
+	overflow: hidden;
+	font-size: 9pt;
+}
+
+.divIconPlaceHolder
+{
+	background-image: none;
+	overflow: hidden;
+}

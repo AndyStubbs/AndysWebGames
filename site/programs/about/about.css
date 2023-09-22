@@ -1,0 +1,21 @@
+.about h2 {
+	text-align: center;
+	margin: 10px;
+}
+
+.about div {
+	margin: 10px;
+}
+
+.about .about-buttons {
+	text-align: center;
+}
+
+.about .about-buttons input[type='button'] {
+	width: 60px;
+	padding: 5px;
+}
+
+.about .about-video {
+	text-align: center;
+}

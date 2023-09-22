@@ -1,0 +1,58 @@
+.help-frame {
+	width: 100%;
+	height: 100%;
+}
+
+.help-frame > div {
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+}
+
+.help-index {
+	width: 135px;
+	overflow-y: auto;
+	user-select: none;
+}
+
+.help-index div {
+	padding: 5px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.help-index div.selected {
+	background-color: rgba( 33, 66, 128, 0.5 );
+}
+
+.help-index div.selected:hover {
+	background-color: rgba( 66, 99, 158, 0.5 );
+}
+
+.help-index div:hover {
+	background-color: rgba( 128, 128, 128, 0.5 );
+}
+
+.help-body {
+	width: calc(100% - 138px);
+	overflow-y: auto;
+}
+
+.help-body p {
+	word-break: break-word;
+}
+
+.help-body > div {
+	padding: 0 15px;
+}
+
+.help-body h2 {
+	margin: 5px;
+	text-align: center;
+}
+
+.help-border {
+	width: 3px;
+	background-color: gray;
+	cursor: e-resize;
+}

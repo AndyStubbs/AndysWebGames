@@ -23,12 +23,11 @@ var About = ( function () {
 					"Created by Andy Stubbs (" +
 					"<a href='https://www.linkedin.com/in/andy-stubbs-04b9038a/' target='_blank'" +
 					">LinkedIn</a> | " +
-					"<a href='https://gitlab.com/astubbs50' target='_blank'>GitLab</a>" +
+					"<a href='https://github.com/AndyStubbs' target='_blank'>GitHub</a>" +
 					"). " +
 				"</div>" +
 				"<div class='about-video'>" +
-					//"<iframe src='https://rumble.com/embed/vaccft/?pub=a8xdb'></iframe>" +
-					"<video src='http://www.andyswebgames.com/videos/awg.mp4' controls></video>" +
+					"<video src='https://www.andyswebgames.com/videos/awg.mp4' controls></video>" +
 				"</div>" +
 				"<div class='about-buttons'>" +
 					"<input type='button' value='Ok' />" +

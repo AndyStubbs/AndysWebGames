@@ -81,32 +81,32 @@
 	},
 	"/Games/Battleship": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/battleship/",
+		"data": "https://www.andyswebgames.com/games/battleship/",
 		"icon": "url(data/img/icons/battleship.png)"
 	},
 	"/Games/Chess": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/chess/",
+		"data": "https://www.andyswebgames.com/games/chess/",
 		"icon": "url(data/img/icons/chess2.png)"
 	},
 	"/Games/Land": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/land/",
+		"data": "https://www.andyswebgames.com/games/land/",
 		"icon": "url(data/img/icons/knight.png)"
 	},
 	"/Games/Maze Up": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/maze_up/",
+		"data": "https://www.andyswebgames.com/games/maze_up/",
 		"icon": "url(data/img/icons/maze_up.png)"
 	},
 	"/Games/Pacman": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/pacman/",
+		"data": "https://www.andyswebgames.com/games/pacman/",
 		"icon": "url(data/img/icons/pacman.png)"
 	},
 	"/Games/Dr ASCII": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/dr_ascii/",
+		"data": "https://www.andyswebgames.com/games/dr_ascii/",
 		"icon": "url(data/img/icons/dr_ascii.webp)"
 	},
 	"/Games/Tetris": {
@@ -146,22 +146,22 @@
 	},
 	"/Games/Slide Puzzle": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/slide_puzzle/",
+		"data": "https://www.andyswebgames.com/games/slide_puzzle/",
 		"icon": "url(data/img/icons/tiger.png)"
 	},
 	"/Games/Sneaky Pirate": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/pirate/",
+		"data": "https://www.andyswebgames.com/games/pirate/",
 		"icon": "url(data/img/icons/pirate.png)"
 	},
-	"/Misc/QBS Library": {
+	"/Misc/Pi.js": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/qbs/docs/",
-		"icon": "url(data/img/icons/www-link.png)"
+		"data": "https://pijs.org/",
+		"icon": "url(data/img/icons/pijs.webp)"
 	},
 	"/Games/To Remember": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/unity/to-remember/",
+		"data": "https://www.andyswebgames.com/games/unity/to-remember/",
 		"icon": "url(data/img/icons/to-remember.png)"
 	},
 	"/Game Demos/Readme": {
@@ -171,102 +171,112 @@
 	},
 	"/Game Demos/Bites": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/bites/",
+		"data": "https://www.andyswebgames.com/games/bites/",
 		"icon": "url(data/img/icons/bites.png)"
 	},
 	"/Game Demos/Build Stack": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/unity/build_stack/",
+		"data": "https://www.andyswebgames.com/games/unity/build_stack/",
 		"icon": "url(data/img/icons/build-stack.png)"
 	},
 	"/Game Demos/Hexland": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/hexland/",
+		"data": "https://www.andyswebgames.com/games/hexland/",
 		"icon": "url(data/img/icons/hexland.png)"
 	},
 	"/Game Demos/Jetman": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/jetman/",
+		"data": "https://www.andyswebgames.com/games/jetman/",
 		"icon": "url(data/img/icons/jetman.png)"
 	},
 	"/Game Demos/Monster Warrior": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/monster/monster.php",
+		"data": "https://www.andyswebgames.com/games/monster/monster.php",
 		"icon": "url(data/img/icons/warrior.png)"
 	},
 	"/Game Demos/Shooter": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/shooter/",
+		"data": "https://www.andyswebgames.com/games/shooter/",
 		"icon": "url(data/img/icons/space_ship.png)"
 	},
 	"/Game Demos/Snake": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/snake/",
+		"data": "https://www.andyswebgames.com/games/snake/",
 		"icon": "url(data/img/icons/snake.png)"
 	},
 	"/Game Demos/Space": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/games/space/",
+		"data": "https://www.andyswebgames.com/games/space/",
 		"icon": "url(data/img/icons/space_ship2.png)"
 	},
 	"/Graphics Demos/Readme": {
 		"type": "text",
-		"data": "This folder contains various graphical demos including some 3d effects written in WebGL. My favorites from this folder are Mandlebrot and Land. \n\nIf you open the 3D Textures demo refresh the page so you can see the effect applied to different images.",
+		"data": "This folder contains various graphical demos.",
 		"icon": "url(data/img/icons/text-file.png)"
 	},
-	"/Graphics Demos/3D Land": {
+	"/3D Demos/Readme": {
+		"type": "text",
+		"data": "This folder contains 3d graphics demos written in WebGL or Three.js.",
+		"icon": "url(data/img/icons/text-file.png)"
+	},
+	"/3D Demos/Gravity": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/land/",
+		"data": "https://www.andyswebgames.com/apps/gravity/",
+		"icon": "url(data/img/icons/planets_small.png)"
+	},
+	"/3D Demos/3D Land": {
+		"type": "link",
+		"data": "https://www.andyswebgames.com/apps/land/",
 		"icon": "url(data/img/icons/land.png)"
 	},
-	"/Graphics Demos/3D Textures": {
+	"/3D Demos/3D Textures": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/3d_textures/",
+		"data": "https://www.andyswebgames.com/apps/3d_textures/",
 		"icon": "url(data/img/icons/3d_textures.png)"
 	},
-	"/Graphics Demos/Blocks": {
+	"/3D Demos/Blocks": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/blocks/",
+		"data": "https://www.andyswebgames.com/apps/blocks/",
 		"icon": "url(data/img/icons/blocks.png)"
 	},
-	"/Graphics Demos/Flag": {
+	"/3D Demos/Flag": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/flag/",
+		"data": "https://www.andyswebgames.com/apps/flag/",
 		"icon": "url(data/img/icons/flag.png)"
 	},
-	"/Graphics Demos/Illusion": {
+	"/3D Demos/Illusion": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/illusion/",
+		"data": "https://www.andyswebgames.com/apps/illusion/",
 		"icon": "url(data/img/icons/illusion.png)"
 	},
-	"/Graphics Demos/Intel Wave": {
+	"/3D Demos/Intel Wave": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/intel_wave/",
+		"data": "https://www.andyswebgames.com/apps/intel_wave/",
 		"icon": "url(data/img/icons/intel.png)"
 	},
 	"/Graphics Demos/Island": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/island/",
+		"data": "https://www.andyswebgames.com/apps/island/",
 		"icon": "url(data/img/icons/island.png)"
 	},
 	"/Graphics Demos/Mandelbrot": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/mandelbrot/",
+		"data": "https://www.andyswebgames.com/apps/mandelbrot/",
 		"icon": "url(data/img/icons/mandelbrot.png)"
 	},
 	"/Graphics Demos/Parallax": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/parallax/",
+		"data": "https://www.andyswebgames.com/apps/parallax/",
 		"icon": "url(data/img/icons/parallax.png)"
 	},
 	"/Graphics Demos/Plasma Star": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/star/",
+		"data": "https://www.andyswebgames.com/apps/star/",
 		"icon": "url(data/img/icons/star.png)"
 	},
-	"/Graphics Demos/Wind": {
+	"/3D Demos/Wind": {
 		"type": "link",
-		"data": "http://www.andyswebgames.com/apps/wind/",
+		"data": "https://www.andyswebgames.com/apps/wind/",
 		"icon": "url(data/img/icons/wind.png)"
 	},
 	"/Help": {

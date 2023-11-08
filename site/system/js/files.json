@@ -124,6 +124,11 @@
 		"data": "https://www.andyswebgames.com/games/blastroids/",
 		"icon": "url(data/img/icons/blastroids.webp)"
 	},
+	"/Games/Astroids": {
+		"type": "link",
+		"data": "https://www.andyswebgames.com/games/astroids/",
+		"icon": "url(data/img/icons/astroids.png)"
+	},
 	"/Games/Gorillas": {
 		"type": "link",
 		"data": "https://pijs.org/demos/gorillas/",

@@ -124,10 +124,20 @@
 		"data": "https://www.andyswebgames.com/games/blastroids/",
 		"icon": "url(data/img/icons/blastroids.webp)"
 	},
-	"/Games/Astroids": {
+	"/Games/AlienABC": {
 		"type": "link",
-		"data": "https://www.andyswebgames.com/games/astroids/",
-		"icon": "url(data/img/icons/astroids.png)"
+		"data": "https://www.andyswebgames.com/games/alien/",
+		"icon": "url(data/img/icons/alien.png)"
+	},
+	"/Games/Asteroids": {
+		"type": "link",
+		"data": "https://www.andyswebgames.com/games/asteroids/",
+		"icon": "url(data/img/icons/asteroids.png)"
+	},
+	"/Games/Floppy Fish": {
+		"type": "link",
+		"data": "https://www.andyswebgames.com/games/floppy/",
+		"icon": "url(data/img/icons/floppy.png)"
 	},
 	"/Games/Gorillas": {
 		"type": "link",

@@ -92,7 +92,8 @@ I don't recommend it.
 
 ## Setting Up and Running Locally
 
-To run AndysWebGames locally, you only need to have a server running locally.
+To run AndysWebGames locally, you only need to have a server running locally. Channel tracker app
+requires PHP to run, but everything else should work with node.
 
 Follow these steps to run using Node.js as local server:
 

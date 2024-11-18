@@ -36,7 +36,7 @@
 	},
 	"/Apps/Data/Tracker Settings": {
 		"type": "data",
-		"data": "{\"categories\":[\"Tech\",\"History\"],\"channels\":[{\"title\":\"SwitchedToLinux\",\"category\":\"Tech\",\"link\":\"https://www.bitchute.com/feeds/rss/channel/SwitchedToLinux\",\"id\":1},{\"title\":\"Linus Tech Tips\",\"category\":\"Tech\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw\",\"id\":2},{\"title\":\"Historia Civilis\",\"category\":\"History\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UCv_vLHiWVBh_FR9vbeuiY-A\"}],\"activeFilters\":[]}",
+		"data": "{\"categories\":[\"Tech\",\"History\"],\"channels\":[{\"title\":\"SwitchedToLinux\",\"category\":\"Tech\",\"link\":\"https://www.bitchute.com/feeds/rss/channel/SwitchedToLinux\",\"id\":1},{\"title\":\"Linus Tech Tips\",\"category\":\"Tech\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw\",\"id\":2},{\"title\":\"Vlogging Through History\",\"category\":\"History\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UCN-p-fxcoKT4Ltg1vPZIxGQ\",\"id\":4},{\"title\":\"Historia Militum\",\"category\":\"History\",\"link\":\"https://www.youtube.com/feeds/videos.xml?channel_id=UCLA-PoQkSsIP6wWP0PUzFgQ\"}],\"activeFilters\":[\"History\"]}",
 		"icon": "url(data/img/icons/data-file.png)"
 	},
 	"/Documents/Readme": {

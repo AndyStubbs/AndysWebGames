@@ -1,6 +1,6 @@
 # Andy's Web Games
 
-Welcome to AndysWebGames, a virtual operating system inspired by the classic Windows 9x era! This web-based OS hosts a portfolio of projects, including apps, games, and tools. Interact with it just like a real operating system—using a mouse and keyboard—featuring a taskbar, desktop icons, and draggable windows.
+Welcome to AndysWebGames, a virtual operating system inspired by the classic Windows 9x era. This web-based OS hosts a portfolio of projects, including apps, games, and tools. Interact with it just like a real operating system—using a mouse and keyboard—featuring a taskbar, desktop icons, and draggable windows.
 
 ---
 
